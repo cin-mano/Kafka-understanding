@@ -1,0 +1,9 @@
+downloaded from here-https://kafka.apache.org/downloads
+Binary downloads:
+Scala 2.12  - kafka_2.12-3.2.3.tgz (asc, sha512)
+
+start zookeeper
+bin/zookeeper-server-start.sh config/zookeeper.properties
+
+start kafka server
+bin/kafka-server-start.sh config/server.properties
